@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Shengjian Zhou"
+  favicon: images/favicon.png
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: nixos-project.qmd
+        text: NixOS Project
+      - href: linux-server.qmd
+        text: Linux Server
+      - href: resume.qmd
+        text: Resume
+
+  page-footer:
+    center: "Built with Quarto · Shengjian Zhou"
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    max-width: 820px

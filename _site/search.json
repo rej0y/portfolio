@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "linux-server.html",
+    "href": "linux-server.html",
+    "title": "Linux Server Deployment",
+    "section": "",
+    "text": "I deployed and maintained a remote Linux server to learn how services are hosted, routed, secured, and accessed in a real networked environment.\nThis project gave me hands-on experience with server administration, DNS routing, reverse proxy configuration, secure remote access, and long-term service maintenance using real infrastructure tools."
+  },
+  {
+    "objectID": "linux-server.html#overview",
+    "href": "linux-server.html#overview",
+    "title": "Linux Server Deployment",
+    "section": "",
+    "text": "I deployed and maintained a remote Linux server to learn how services are hosted, routed, secured, and accessed in a real networked environment.\nThis project gave me hands-on experience with server administration, DNS routing, reverse proxy configuration, secure remote access, and long-term service maintenance using real infrastructure tools."
+  },
+  {
+    "objectID": "linux-server.html#goals",
+    "href": "linux-server.html#goals",
+    "title": "Linux Server Deployment",
+    "section": "Goals",
+    "text": "Goals\nI wanted to move beyond local development and understand how systems behave in real environments.\nMy goals were to:\n\ndeploy and manage a remote Linux server\nconfigure domain routing and reverse proxy access\nimplement secure networking and proxy services\nmaintain stable remote access over time\ndebug real networking and connectivity issues"
+  },
+  {
+    "objectID": "linux-server.html#what-i-built",
+    "href": "linux-server.html#what-i-built",
+    "title": "Linux Server Deployment",
+    "section": "What I Built",
+    "text": "What I Built\nI set up a remote Linux server and configured it for hosting, routing, and secure access.\nThe system included:\n\nNginx for reverse proxy and service routing\nDNS configuration for domain-based access\nCloudflare integration for routing and access control\nXray and previously Trojan for encrypted proxy networking\nstatic HTML pages for testing and validation\nFRP (Fast Reverse Proxy) for exposing a local service through the remote server"
+  },
+  {
+    "objectID": "linux-server.html#reverse-proxy-and-routing",
+    "href": "linux-server.html#reverse-proxy-and-routing",
+    "title": "Linux Server Deployment",
+    "section": "Reverse Proxy and Routing",
+    "text": "Reverse Proxy and Routing\nI used Nginx to route incoming traffic to services hosted on the server.\nThis included:\n\nmapping domains to services\nhandling incoming HTTP and HTTPS requests\norganizing service endpoints through a reverse proxy\n\nThis helped me understand how external requests are routed internally within a server environment."
+  },
+  {
+    "objectID": "linux-server.html#secure-networking",
+    "href": "linux-server.html#secure-networking",
+    "title": "Linux Server Deployment",
+    "section": "Secure Networking",
+    "text": "Secure Networking\nTo enable secure remote access, I configured proxy services using:\n\nXray for encrypted proxy routing\nTrojan (previously) for secure tunneling\n\nThese tools allowed me to experiment with secure communication, remote access, and service exposure across network boundaries."
+  },
+  {
+    "objectID": "linux-server.html#debugging-and-networking-challenges",
+    "href": "linux-server.html#debugging-and-networking-challenges",
+    "title": "Linux Server Deployment",
+    "section": "Debugging and Networking Challenges",
+    "text": "Debugging and Networking Challenges\nOne of the most valuable parts of this project was troubleshooting real networking issues.\nFor example:\n\nI exposed a locally hosted Minecraft world to the public internet using FRP (Fast Reverse Proxy) through my remote Linux server\nI initially encountered issues due to incorrect port forwarding and routing between my local machine and the server\nAfter debugging the connection path and adjusting the FRP configuration, I successfully enabled remote multiplayer access\n\nThis process helped me better understand port forwarding, tunneling, and how connections are established across different network boundaries."
+  },
+  {
+    "objectID": "linux-server.html#network-flow",
+    "href": "linux-server.html#network-flow",
+    "title": "Linux Server Deployment",
+    "section": "Network Flow",
+    "text": "Network Flow\nPlayer → Internet → Remote Linux Server → FRP → Local Machine → Minecraft World"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Shengjian Zhou",
+    "section": "",
+    "text": "986.275.7260 · zhoushengjian1@gmail.com\nLinkedIn · GitHub"
+  },
+  {
+    "objectID": "resume.html#professional-summary",
+    "href": "resume.html#professional-summary",
+    "title": "Shengjian Zhou",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nComputer Science student focused on reproducible development environments, Linux systems, and technical architecture. Experienced in configuration design, workflow automation, server deployment, and multi-language software development."
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Shengjian Zhou",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nLanguages: Python, C#, SQL, Bash, Nix, HTML\nSystems: Linux, NixOS, shell scripting, cron, SMB, DNS, remote server configuration\nTools: Git, VS Code, Quarto, Hyprland, Cloudflare\nDevelopment: Object-oriented programming, UML, input validation, exception handling, debugging\nData: Polars, scikit-learn, XGBoost, Random Forest, data visualization"
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Shengjian Zhou",
+    "section": "Projects",
+    "text": "Projects\n\nNixOS Reproducible Development Environment\nDecember 2025 – Present · Personal Project · Rexburg, ID\n\nBuilt a modular NixOS development environment supporting Python, C#, and Rust workflows\n\nCreated reproducible Nix flake shells for isolated development toolchains\n\nDesigned and automated rebuild, update, and Git workflows using shell functions and aliases\n\nResolved package conflicts, editor integration issues, and environment inconsistencies\n\n\n\n\nLinux Server Deployment\nSeptember 2020 – Present · Independent Project · China\n\nDeployed and maintained a remote Linux server for technical experimentation\n\nConfigured DNS routing and reverse proxy services using Nginx and Cloudflare\n\nImplemented secure networking using Xray and previously Trojan\n\nExposed a local service using FRP through the remote server to enable public access\n\nHosted static HTML pages to validate server configuration and routing behavior\n\n\n\n\nC# Application Development\nSeptember 2025 – Present · Course Project · Rexburg, ID\n\nDeveloped console-based C# applications including journaling and scripture memorization tools\n\nDesigned class structures using UML and implemented validation logic for user input\n\n\n\n\nProvincial Programming First Prize\nJanuary 2019 · Programming Competition · China\n\nDesigned and developed an English vocabulary learning application with 100+ word entries\n\nImplemented quizzes and automated feedback\n\nAwarded First Prize as the only top-ranked participant from hometown city"
+  },
+  {
+    "objectID": "resume.html#relevant-experience",
+    "href": "resume.html#relevant-experience",
+    "title": "Shengjian Zhou",
+    "section": "Relevant Experience",
+    "text": "Relevant Experience\n\nTechnical Support & Repair\nJanuary 2020 – Present · Rexburg, ID\n\nDiagnosed and repaired hardware and software issues across 10+ systems\n\nResolved operating system failures, driver conflicts, and system errors\n\nSupported users by restoring system functionality and improving reliability"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Shengjian Zhou",
+    "section": "Education",
+    "text": "Education\nComputer Science\nBrigham Young University – Idaho · Rexburg, ID\nExpected June 2028"
+  },
+  {
+    "objectID": "resume.html#download",
+    "href": "resume.html#download",
+    "title": "Shengjian Zhou",
+    "section": "Download",
+    "text": "Download\nDownload PDF Resume"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Computer Science student focused on Linux systems, reproducible development environments, and technical architecture.\nGitHub · LinkedIn"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Home",
+    "section": "About",
+    "text": "About\nI am interested in building reliable and maintainable computing systems. My work focuses on reproducibility, automation, and system-level problem solving.\nI enjoy working on Linux environments, server configuration, and software projects that require structured design and careful debugging."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Home",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\nNixOS Reproducible Development Environment\nA flake-based NixOS and Home Manager setup for a customized Linux desktop and reproducible multi-language workflow.\n\n\nLinux Server Deployment\nA remote Linux server project focused on Nginx, DNS routing, secure remote access, and FRP-based tunneling.\n\n\nResume\nMy current resume and technical background."
+  },
+  {
+    "objectID": "index.html#focus-areas",
+    "href": "index.html#focus-areas",
+    "title": "Home",
+    "section": "Focus Areas",
+    "text": "Focus Areas\n\nLinux systems\nNixOS and reproducibility\nWorkflow automation\nServer administration\nSoftware development"
+  },
+  {
+    "objectID": "nixos-project.html",
+    "href": "nixos-project.html",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "",
+    "text": "I built a flake-based NixOS and Home Manager configuration for a customized Linux desktop and reproducible multi-language development workflow.\nThis project combines system configuration, package management, desktop customization, and workflow automation into a declarative setup that can be rebuilt consistently from code."
+  },
+  {
+    "objectID": "nixos-project.html#overview",
+    "href": "nixos-project.html#overview",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "",
+    "text": "I built a flake-based NixOS and Home Manager configuration for a customized Linux desktop and reproducible multi-language development workflow.\nThis project combines system configuration, package management, desktop customization, and workflow automation into a declarative setup that can be rebuilt consistently from code."
+  },
+  {
+    "objectID": "nixos-project.html#goals",
+    "href": "nixos-project.html#goals",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Goals",
+    "text": "Goals\nI wanted an environment that would let me:\n\nmanage system configuration declaratively\nreduce configuration drift over time\nsupport development across multiple languages such as Python, C#, and Rust\ncustomize my desktop workflow for daily use\nmake system changes easier to reproduce and maintain"
+  },
+  {
+    "objectID": "nixos-project.html#what-i-built",
+    "href": "nixos-project.html#what-i-built",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "What I Built",
+    "text": "What I Built\nThe project is organized around a small set of configuration files:\n\nflake.nix for flake inputs, outputs, and system composition\nconfiguration.nix for system-level services and hardware behavior\nhome.nix for user-level packages, terminal settings, and desktop workflow\nhardware-configuration.nix for hardware-specific definitions\n\nTogether, these files define both the operating system and the user environment in a reproducible way."
+  },
+  {
+    "objectID": "nixos-project.html#repository-structure",
+    "href": "nixos-project.html#repository-structure",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Repository Structure",
+    "text": "Repository Structure\nThe repository is intentionally small and modular. The main files separate system configuration from user configuration, which makes the setup easier to understand and maintain.\n\n\n\nNixOS configuration structure\n\n\nModular NixOS configuration showing the flake and declarative system files."
+  },
+  {
+    "objectID": "nixos-project.html#flake-based-composition",
+    "href": "nixos-project.html#flake-based-composition",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Flake-Based Composition",
+    "text": "Flake-Based Composition\nThe core of the project is a flake that defines the charity NixOS configuration and integrates Home Manager into the system.\nThis allows the operating system and user environment to be described together while keeping the structure modular.\n\n\n\nFlake-based system definition\n\n\nFlake inputs and outputs wiring together NixOS, Home Manager, and the user configuration."
+  },
+  {
+    "objectID": "nixos-project.html#system-configuration",
+    "href": "nixos-project.html#system-configuration",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "System Configuration",
+    "text": "System Configuration\nAt the system level, I configured services and system behavior declaratively.\nThis includes:\n\ngreetd with tuigreet for starting a Hyprland session\nkeyd for keyboard remapping\nsystem-level service configuration through configuration.nix\na Linux desktop environment designed around reproducibility and control\n\n\n\n\nSystem configuration with greetd and keyd\n\n\nDeclarative configuration for login behavior and custom keyboard remapping."
+  },
+  {
+    "objectID": "nixos-project.html#terminal-and-workflow-customization",
+    "href": "nixos-project.html#terminal-and-workflow-customization",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Terminal and Workflow Customization",
+    "text": "Terminal and Workflow Customization\nAt the user level, I used Home Manager to configure my development environment and desktop workflow.\nOne example is my Kitty terminal configuration, which defines:\n\nfont settings\nshell behavior\nscrollback behavior\ncustom theme integration\nkeybindings\n\n\n\n\nKitty terminal configuration\n\n\nHome Manager configuration for terminal behavior, fonts, scrollback, and shell integration."
+  },
+  {
+    "objectID": "nixos-project.html#key-features",
+    "href": "nixos-project.html#key-features",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Key Features",
+    "text": "Key Features\n\nDeclarative Configuration\nSystem and user settings are written in configuration files instead of being managed manually through repeated setup.\n\n\nReproducible Development Environment\nThe configuration supports repeatable development workflows and helps reduce inconsistencies between sessions and tools.\n\n\nModular Structure\nThe project is split across flake, system, and user configuration files so that each part has a clear role.\n\n\nDesktop Workflow Customization\nThe setup includes custom login behavior, keyboard remapping, terminal configuration, and user-environment tooling."
+  },
+  {
+    "objectID": "nixos-project.html#what-i-learned",
+    "href": "nixos-project.html#what-i-learned",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project changed the way I think about development environments and operating systems.\nInstead of treating the environment as background setup, I started thinking of it as part of the system itself. Building this configuration helped me understand:\n\nhow declarative systems improve maintainability\nhow flakes help structure reproducible configurations\nhow system-level and user-level configuration interact\nhow to debug configuration, service, and workflow issues more systematically\n\nIt also strengthened my interest in Linux systems, technical architecture, and reproducible computing."
+  },
+  {
+    "objectID": "nixos-project.html#tools-and-technologies",
+    "href": "nixos-project.html#tools-and-technologies",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\n\nNixOS\nNix flakes\nHome Manager\nLinux\nHyprland\nKitty\nFish\nkeyd\ngreetd"
+  },
+  {
+    "objectID": "nixos-project.html#reflection",
+    "href": "nixos-project.html#reflection",
+    "title": "NixOS Reproducible Development Environment",
+    "section": "Reflection",
+    "text": "Reflection\nThis project gave me a much deeper understanding of how a development environment can be designed intentionally instead of assembled manually.\nIt also showed me that infrastructure, desktop workflow, and software development are closely connected. A well-designed environment makes the rest of the work more reliable, more maintainable, and easier to reason about."
+  }
+]

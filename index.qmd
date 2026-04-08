@@ -1,0 +1,42 @@
+---
+title: "Home"
+---
+
+::: {.hero}
+# Shengjian Zhou
+
+Computer Science student focused on Linux systems, reproducible development environments, and technical architecture.
+
+[GitHub](https://github.com/rej0y) · [LinkedIn](https://linkedin.com/in/shengjianzhou)
+:::
+
+## About
+
+I am interested in building reliable and maintainable computing systems. My work focuses on reproducibility, automation, and system-level problem solving.
+
+I enjoy working on Linux environments, server configuration, and software projects that require structured design and careful debugging.
+
+## Featured Projects
+
+::: {.project-card}
+### [NixOS Reproducible Development Environment](nixos-project.qmd)
+A flake-based NixOS and Home Manager setup for a customized Linux desktop and reproducible multi-language workflow.
+:::
+
+::: {.project-card}
+### [Linux Server Deployment](linux-server.qmd)
+A remote Linux server project focused on Nginx, DNS routing, secure remote access, and FRP-based tunneling.
+:::
+
+::: {.project-card}
+### [Resume](resume.qmd)
+My current resume and technical background.
+:::
+
+## Focus Areas
+
+- Linux systems
+- NixOS and reproducibility
+- Workflow automation
+- Server administration
+- Software development

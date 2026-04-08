@@ -1,0 +1,73 @@
+---
+title: "Linux Server Deployment"
+---
+
+## Overview
+
+I deployed and maintained a remote Linux server to learn how services are hosted, routed, secured, and accessed in a real networked environment.
+
+This project gave me hands-on experience with server administration, DNS routing, reverse proxy configuration, secure remote access, and long-term service maintenance using real infrastructure tools.
+
+## Goals
+
+I wanted to move beyond local development and understand how systems behave in real environments.
+
+My goals were to:
+
+- deploy and manage a remote Linux server
+- configure domain routing and reverse proxy access
+- implement secure networking and proxy services
+- maintain stable remote access over time
+- debug real networking and connectivity issues
+
+## What I Built
+
+I set up a remote Linux server and configured it for hosting, routing, and secure access.
+
+The system included:
+
+- Nginx for reverse proxy and service routing
+- DNS configuration for domain-based access
+- Cloudflare integration for routing and access control
+- Xray and previously Trojan for encrypted proxy networking
+- static HTML pages for testing and validation
+- FRP (Fast Reverse Proxy) for exposing a local service through the remote server
+
+## Reverse Proxy and Routing
+
+I used Nginx to route incoming traffic to services hosted on the server.
+
+This included:
+
+- mapping domains to services
+- handling incoming HTTP and HTTPS requests
+- organizing service endpoints through a reverse proxy
+
+This helped me understand how external requests are routed internally within a server environment.
+
+## Secure Networking
+
+To enable secure remote access, I configured proxy services using:
+
+- Xray for encrypted proxy routing
+- Trojan (previously) for secure tunneling
+
+These tools allowed me to experiment with secure communication, remote access, and service exposure across network boundaries.
+
+## Debugging and Networking Challenges
+
+One of the most valuable parts of this project was troubleshooting real networking issues.
+
+For example:
+
+- I exposed a locally hosted Minecraft world to the public internet using FRP (Fast Reverse Proxy) through my remote Linux server
+- I initially encountered issues due to incorrect port forwarding and routing between my local machine and the server
+- After debugging the connection path and adjusting the FRP configuration, I successfully enabled remote multiplayer access
+
+This process helped me better understand port forwarding, tunneling, and how connections are established across different network boundaries.
+
+## Network Flow
+
+```text
+Player → Internet → Remote Linux Server → FRP → Local Machine → Minecraft World
+```

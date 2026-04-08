@@ -1,0 +1,87 @@
+---
+title: "Shengjian Zhou"
+---
+
+986.275.7260 · zhoushengjian1@gmail.com  
+[LinkedIn](https://linkedin.com/in/shengjianzhou) · [GitHub](https://github.com/rej0y)
+
+---
+
+## Professional Summary
+
+Computer Science student focused on reproducible development environments, Linux systems, and technical architecture. Experienced in configuration design, workflow automation, server deployment, and multi-language software development.
+
+---
+
+## Technical Skills
+
+**Languages:** Python, C#, SQL, Bash, Nix, HTML  
+**Systems:** Linux, NixOS, shell scripting, cron, SMB, DNS, remote server configuration  
+**Tools:** Git, VS Code, Quarto, Hyprland, Cloudflare  
+**Development:** Object-oriented programming, UML, input validation, exception handling, debugging  
+**Data:** Polars, scikit-learn, XGBoost, Random Forest, data visualization  
+
+---
+
+## Projects
+
+### NixOS Reproducible Development Environment  
+*December 2025 – Present · Personal Project · Rexburg, ID*
+
+- Built a modular NixOS development environment supporting Python, C#, and Rust workflows  
+- Created reproducible Nix flake shells for isolated development toolchains  
+- Designed and automated rebuild, update, and Git workflows using shell functions and aliases  
+- Resolved package conflicts, editor integration issues, and environment inconsistencies  
+
+---
+
+### Linux Server Deployment  
+*September 2020 – Present · Independent Project · China*
+
+- Deployed and maintained a remote Linux server for technical experimentation  
+- Configured DNS routing and reverse proxy services using Nginx and Cloudflare  
+- Implemented secure networking using Xray and previously Trojan  
+- Exposed a local service using FRP through the remote server to enable public access  
+- Hosted static HTML pages to validate server configuration and routing behavior  
+
+---
+
+### C# Application Development  
+*September 2025 – Present · Course Project · Rexburg, ID*
+
+- Developed console-based C# applications including journaling and scripture memorization tools  
+- Designed class structures using UML and implemented validation logic for user input  
+
+---
+
+### Provincial Programming First Prize  
+*January 2019 · Programming Competition · China*
+
+- Designed and developed an English vocabulary learning application with 100+ word entries  
+- Implemented quizzes and automated feedback  
+- Awarded First Prize as the only top-ranked participant from hometown city  
+
+---
+
+## Relevant Experience
+
+### Technical Support & Repair  
+*January 2020 – Present · Rexburg, ID*
+
+- Diagnosed and repaired hardware and software issues across 10+ systems  
+- Resolved operating system failures, driver conflicts, and system errors  
+- Supported users by restoring system functionality and improving reliability  
+
+---
+
+## Education
+
+**Computer Science**  
+Brigham Young University – Idaho · Rexburg, ID  
+Expected June 2028  
+
+---
+
+## Download
+
+[Download PDF Resume](resume.pdf)
