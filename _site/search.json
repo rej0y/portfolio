@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Shengjian Zhou",
+    "section": "",
+    "text": "986.275.7260 · zhoushengjian1@gmail.com\nLinkedIn · GitHub"
+  },
+  {
+    "objectID": "resume.html#professional-summary",
+    "href": "resume.html#professional-summary",
+    "title": "Shengjian Zhou",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nComputer Science student focused on reproducible development environments, Linux systems, and technical architecture. Experienced in configuration design, workflow automation, server deployment, and multi-language software development."
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Shengjian Zhou",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nLanguages: Python, C#, SQL, Bash, Nix, HTML\nSystems: Linux, NixOS, shell scripting, cron, SMB, DNS, remote server configuration\nTools: Git, VS Code, Quarto, Hyprland, Cloudflare\nDevelopment: Object-oriented programming, UML, input validation, exception handling, debugging\nData: Polars, scikit-learn, XGBoost, Random Forest, data visualization"
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Shengjian Zhou",
+    "section": "Projects",
+    "text": "Projects\n\nNixOS Reproducible Development Environment\nDecember 2025 – Present · Personal Project · Rexburg, ID\n\nBuilt a modular NixOS development environment supporting Python, C#, and Rust workflows\n\nCreated reproducible Nix flake shells for isolated development toolchains\n\nDesigned and automated rebuild, update, and Git workflows using shell functions and aliases\n\nResolved package conflicts, editor integration issues, and environment inconsistencies\n\n\n\n\nLinux Server Deployment\nSeptember 2020 – Present · Independent Project · China\n\nDeployed and maintained a remote Linux server for technical experimentation\n\nConfigured DNS routing and reverse proxy services using Nginx and Cloudflare\n\nImplemented secure networking using Xray and previously Trojan\n\nExposed a local service using FRP through the remote server to enable public access\n\nHosted static HTML pages to validate server configuration and routing behavior\n\n\n\n\nC# Application Development\nSeptember 2025 – Present · Course Project · Rexburg, ID\n\nDeveloped console-based C# applications including journaling and scripture memorization tools\n\nDesigned class structures using UML and implemented validation logic for user input\n\n\n\n\nProvincial Programming First Prize\nJanuary 2019 · Programming Competition · China\n\nDesigned and developed an English vocabulary learning application with 100+ word entries\n\nImplemented quizzes and automated feedback\n\nAwarded First Prize as the only top-ranked participant from hometown city"
+  },
+  {
+    "objectID": "resume.html#relevant-experience",
+    "href": "resume.html#relevant-experience",
+    "title": "Shengjian Zhou",
+    "section": "Relevant Experience",
+    "text": "Relevant Experience\n\nTechnical Support & Repair\nJanuary 2020 – Present · Rexburg, ID\n\nDiagnosed and repaired hardware and software issues across 10+ systems\n\nResolved operating system failures, driver conflicts, and system errors\n\nSupported users by restoring system functionality and improving reliability"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Shengjian Zhou",
+    "section": "Education",
+    "text": "Education\nComputer Science\nBrigham Young University – Idaho · Rexburg, ID\nExpected June 2028"
+  },
+  {
+    "objectID": "resume.html#download",
+    "href": "resume.html#download",
+    "title": "Shengjian Zhou",
+    "section": "Download",
+    "text": "Download\nDownload PDF Resume"
+  },
+  {
     "objectID": "linux-server.html",
     "href": "linux-server.html",
     "title": "Linux Server Deployment",
@@ -54,55 +103,6 @@
     "title": "Linux Server Deployment",
     "section": "Network Flow",
     "text": "Network Flow\nPlayer → Internet → Remote Linux Server → FRP → Local Machine → Minecraft World"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Shengjian Zhou",
-    "section": "",
-    "text": "986.275.7260 · zhoushengjian1@gmail.com\nLinkedIn · GitHub"
-  },
-  {
-    "objectID": "resume.html#professional-summary",
-    "href": "resume.html#professional-summary",
-    "title": "Shengjian Zhou",
-    "section": "Professional Summary",
-    "text": "Professional Summary\nComputer Science student focused on reproducible development environments, Linux systems, and technical architecture. Experienced in configuration design, workflow automation, server deployment, and multi-language software development."
-  },
-  {
-    "objectID": "resume.html#technical-skills",
-    "href": "resume.html#technical-skills",
-    "title": "Shengjian Zhou",
-    "section": "Technical Skills",
-    "text": "Technical Skills\nLanguages: Python, C#, SQL, Bash, Nix, HTML\nSystems: Linux, NixOS, shell scripting, cron, SMB, DNS, remote server configuration\nTools: Git, VS Code, Quarto, Hyprland, Cloudflare\nDevelopment: Object-oriented programming, UML, input validation, exception handling, debugging\nData: Polars, scikit-learn, XGBoost, Random Forest, data visualization"
-  },
-  {
-    "objectID": "resume.html#projects",
-    "href": "resume.html#projects",
-    "title": "Shengjian Zhou",
-    "section": "Projects",
-    "text": "Projects\n\nNixOS Reproducible Development Environment\nDecember 2025 – Present · Personal Project · Rexburg, ID\n\nBuilt a modular NixOS development environment supporting Python, C#, and Rust workflows\n\nCreated reproducible Nix flake shells for isolated development toolchains\n\nDesigned and automated rebuild, update, and Git workflows using shell functions and aliases\n\nResolved package conflicts, editor integration issues, and environment inconsistencies\n\n\n\n\nLinux Server Deployment\nSeptember 2020 – Present · Independent Project · China\n\nDeployed and maintained a remote Linux server for technical experimentation\n\nConfigured DNS routing and reverse proxy services using Nginx and Cloudflare\n\nImplemented secure networking using Xray and previously Trojan\n\nExposed a local service using FRP through the remote server to enable public access\n\nHosted static HTML pages to validate server configuration and routing behavior\n\n\n\n\nC# Application Development\nSeptember 2025 – Present · Course Project · Rexburg, ID\n\nDeveloped console-based C# applications including journaling and scripture memorization tools\n\nDesigned class structures using UML and implemented validation logic for user input\n\n\n\n\nProvincial Programming First Prize\nJanuary 2019 · Programming Competition · China\n\nDesigned and developed an English vocabulary learning application with 100+ word entries\n\nImplemented quizzes and automated feedback\n\nAwarded First Prize as the only top-ranked participant from hometown city"
-  },
-  {
-    "objectID": "resume.html#relevant-experience",
-    "href": "resume.html#relevant-experience",
-    "title": "Shengjian Zhou",
-    "section": "Relevant Experience",
-    "text": "Relevant Experience\n\nTechnical Support & Repair\nJanuary 2020 – Present · Rexburg, ID\n\nDiagnosed and repaired hardware and software issues across 10+ systems\n\nResolved operating system failures, driver conflicts, and system errors\n\nSupported users by restoring system functionality and improving reliability"
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Shengjian Zhou",
-    "section": "Education",
-    "text": "Education\nComputer Science\nBrigham Young University – Idaho · Rexburg, ID\nExpected June 2028"
-  },
-  {
-    "objectID": "resume.html#download",
-    "href": "resume.html#download",
-    "title": "Shengjian Zhou",
-    "section": "Download",
-    "text": "Download\nDownload PDF Resume"
   },
   {
     "objectID": "index.html",
